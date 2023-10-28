@@ -5,7 +5,7 @@ import os
 # Function to load a text file based on the selected option
 def load_text_file(option):
     script_directory = os.path.dirname(__file__)
-    path = os.path.join(script_directory, "..","data")
+    path = os.path.join(script_directory, "..")
     file_path = f"{path}\{option}.txt"
     with open(file_path, 'r') as file:
         content = ''.join([next(file) for _ in range(25)])  # Read the first 25 lines
