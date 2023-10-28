@@ -1,0 +1,8 @@
+altair
+lime
+matplotlib
+boto3
+pandas
+numpy
+streamlit
+joblib
