@@ -22,7 +22,7 @@ def make_prediction():
         's3', aws_access_key_id=st.secrets["access_key"],aws_secret_access_key=st.secrets["secret_access_key"],region_name='ap-south-1')
 
     bucket_name = "nlpmodelsnp"
-    key = "model.pickle"
+    key = "model1.pickle"
 
     # load the model from s3 in a temporary file
     with tempfile.TemporaryFile() as fp:
