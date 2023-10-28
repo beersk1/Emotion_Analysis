@@ -6,3 +6,4 @@ pandas
 numpy
 streamlit
 joblib
+sklearn
